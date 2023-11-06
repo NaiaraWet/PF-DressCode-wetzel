@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <form action="">
+            <label for="name">¿Que buscas?</label>
+            <input type="text" id="name" name="user_name" />
+    
+    
+            <button type="submit">Envíe su mensaje</button>
+        </form>
+        <div class="contenido-logo">
+            <img class="logo" src="../assets/Logo.jpeg" alt="logo-empresa">
+            <h1 class="titulo-marca">Dress Code</h1>
+        </div>
+            <nav class="menu">
+              <a href="../index.html">Home</a>
+              <a href="../pages/productos.html">Productos</a>
+              <a href="../pages/importados-premium.html">Importados Premium</a>
+              <a href="../pages/sobre-nosotros.html">Sobre nosotros</a>
+              <a href="../pages/envios.html">Envios</a>
+              <a href="./pages/contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+          
+            <div class="info-contacto">
+              <p>
+                <strong>Dirección:</strong>
+                San Buenaventura del Monte Alto 500, Resistencia, Chaco
+              </p>
+              <p>
+                <strong>Teléfono:</strong>
+                +5493725442763
+              </p>
+              <p>
+                <strong>Correo electrónico:</strong>
+                Dresscode@hotmail.com
+              </p>
+            </div>
+          
+            <form action="contacto.php" method="post">
+              <input type="text" name="nombre" placeholder="Nombre">
+              <input type="email" name="correo" placeholder="Correo electrónico">
+              <input type="text" name="asunto" placeholder="Asunto">
+              <textarea name="mensaje" placeholder="Mensaje"></textarea>
+              <input type="submit" value="Enviar">
+            </form>
+          
+        
+          </section>
+    </main>
+    <footer>    
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.929720779473!2d-58.990106100000006!3d-27.4403009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c6772429449%3A0xe6fc4b1e528684e4!2sSan%20Buenaventura%20del%20Montealto%20500%2C%20H3504EJA%20Resistencia%2C%20Chaco!5e0!3m2!1ses-419!2sar!4v1696197784402!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+    </footer>
+</body>
+</html>
