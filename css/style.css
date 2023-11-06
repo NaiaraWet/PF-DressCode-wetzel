@@ -156,32 +156,34 @@ h3 {
   width: 100%;
   text-align: center;
 }
+.suscribete {
+  margin-left: 5%;
+  margin-top: 2%;
+}
 
 .social-media {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 5%;
-  
+
   }  
 
-  .logo-facebook {
-    width: 32px;
-    height: 32px;
-    background-image: url("../assets/facebook.png");
+  .logo-facebook img{
+    width: 30px;
+    height: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #ffffff;
-    margin-right: 2%;
+    margin-bottom: 3%;
      }
-     .logo-instagram {
-      width: 32px;
-      height: 32px;
-      background-image: url("../assets/instagram.png");
+     .logo-instagram img {
+      width: 30px;
+      height: 30px;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      margin-bottom: 3%;
       
     }
     
@@ -256,7 +258,7 @@ h3 {
 
   @media (max-width: 1020px) {
      body {
-      background-color: #5656b3;
+      background-color: #8282cf;
      }
      
    }
@@ -358,7 +360,6 @@ h3 {
       text-align: justify;
       
     }
-    
     
     
     }
