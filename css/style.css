@@ -158,14 +158,34 @@ h3 {
 }
 
 .social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  
   }  
 
+  .logo-facebook {
+    width: 32px;
+    height: 32px;
+    background-image: url("../assets/facebook.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    margin-right: 2%;
+     }
+     .logo-instagram {
+      width: 32px;
+      height: 32px;
+      background-image: url("../assets/instagram.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    
+    
   
   .productos {
     list-style: none;
@@ -230,6 +250,7 @@ h3 {
     text-align: center;
     background-color: #b0e449;
   }
+  
 
   /*mediaqueries Desktop a mobile*/
 
