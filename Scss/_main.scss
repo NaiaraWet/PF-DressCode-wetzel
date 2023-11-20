@@ -1,0 +1,161 @@
+.carousel-dificil {
+    @include flex-direc(flex, column, center);
+    width: 100%;
+
+    &-slide {
+        width: 35%;
+    }
+}
+
+.d-block {
+    @include width-height(100px, 500px);
+    margin-top: 5%;
+    
+}
+
+.marca-ropa {
+    @include centrado-p(flex, center, center);
+    background-color: $blue;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.fotovioleta {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#productos {
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+
+    &-title {
+        @include centrado-p(flex, center, center);
+        margin-bottom: 3%;
+        background-color: $amarillo;
+        
+    }
+}
+
+.fotos-productos {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "producto1 producto2 producto3";
+}
+
+#producto1 {
+    grid-area: producto1;
+}
+
+#producto2 {
+    grid-area: producto2;
+}
+
+#producto3 {
+    grid-area: producto3;
+}
+
+.texto-img {
+    @include flex-direc(flex, column, center);
+    width: 300px;
+    justify-content: flex-start; 
+    text-align: center;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    margin-top: 5%;
+
+}
+
+.call-to-action {
+    @include centrado-p(flex, center, center);
+    margin-bottom: 3%;
+    background-color: $amarillo;
+}
+
+.vertienda {
+    display: flex;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+
+
+    &-title {
+        font-size: map-get($map: $f-size, $key: "grande");
+        background-color: $amarillo;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.suscribete {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+.productos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        img {
+            @include width-height(100px,100px);
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        a {
+            background-color: $black;
+            color: $white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+
+
+}
+
+#envio {
+    background-color: $amarilloverde;
+}
+
+
+.mapa {
+    margin: 4%;
+}

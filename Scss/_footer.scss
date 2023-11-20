@@ -1,0 +1,20 @@
+.social-media {
+    @include centrado-p(flex, center, center);
+    }  
+  
+.logo-facebook img{
+      @include width-height(30px,30px);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: $white;
+      margin-bottom: 3%;
+       }
+.logo-instagram img {
+        @include width-height(30px,30px);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 3%;
+        
+      }

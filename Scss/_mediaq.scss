@@ -1,0 +1,96 @@
+@media  (max-width: 1020px) {
+
+    body {
+     background-color: $blue;
+    }
+
+    .fotos-productos {
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "producto1 producto2"
+    "producto3 producto3"
+   }
+   ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-template-areas:
+      "home" "productos" "importados premium" "sobre nosotros" "envios" "contactos";
+    grid-column-start: 1;
+    grid-column-end: 6;
+   }
+  .productos-productos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+ 
+        img {
+        margin: 10px;
+        width: 50%;
+        height: 50%;
+  }
+}
+  }
+  
+  @media (max-width: 768px) {
+    body {
+     background-color: $amarilloverde;
+    }
+    
+    .contenido-logo {
+      width: 100%;
+    }
+    .menu ul {
+        @include d-f-j(flex, column, center);
+        width: 55%;
+    }
+    .your-clothes {
+      width: 100%;
+    }
+    .fotos-productos {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+     grid-template-areas:
+     "producto1" 
+     "producto2"
+     "producto3"
+    }
+    
+    form {
+      font-size: map-get($map: $f-size, $key: "peque");
+    }
+      
+    .d-block {
+        @include width-height(450px, 500px);
+        margin-top: 5%;
+    }
+    .carousel-slide {
+       width: 80%;
+       
+    }
+    .carousel-dificil {
+      display: flex;
+    }
+    .clothes {
+      font-size: map-get($map: $f-size, $key: "mas-peque");
+      background-color: $blue;
+    }
+    p {
+      font-size: map-get($map: $f-size, $key: "mas-peque");
+      text-align: justify;
+    }
+    
+    h2 {
+      font-size: map-get($map: $f-size, $key: "grande");
+      background-color: $amarillo;
+    }
+    h3 {
+      font-size: map-get($map: $f-size, $key: "peque");
+      text-align: justify;
+      
+    }
+    
+    
+    }

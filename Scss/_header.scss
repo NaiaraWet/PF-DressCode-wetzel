@@ -1,0 +1,49 @@
+.titulo-marca {
+    font-size: 70px;
+    text-align: center;
+    
+}
+.contenido-logo {
+    width: 100%;
+    background-color: $amarillo;
+}
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    margin: 2%;
+
+}
+.menu {
+    @include centrado-p(flex, center, center);
+    background-color: $amarillo;
+    text-align: justify;
+
+    a{
+    padding: 0 20px;}
+    & *{
+        font-family:'Onest', sans-serif;
+        font-size: 16px;
+        
+    }
+
+    li {
+        display: inline-block;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 2%;
+      }
+}
+.your-clothes {
+        text-align: center;
+        font-size: 20px;
+        color: $blue;
+        margin-top: 2%;
+      }
+      h2 {
+        font-size: 50px;
+        width: 100%;
+        text-align: justify;
+        text-align: center;
+        background-color: $amarilloverde;
+      }
+

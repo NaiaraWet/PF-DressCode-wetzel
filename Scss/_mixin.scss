@@ -1,0 +1,25 @@
+
+@mixin centrado-p ($d-flex, $just-c, $alig-i){
+
+    display:$d-flex;
+    justify-content:$just-c;
+    align-items:$alig-i;
+}
+
+@mixin flex-direc ($d-flex, $flex-d, $alig-i) {
+    display: $d-flex;
+    flex-direction: $flex-d;
+    align-items: $alig-i;
+}
+
+@mixin width-height ($w, $h){
+    width: $w;
+    height: $h;
+}
+
+@mixin d-f-j ($d-flex, $f-direc, $just-c) {
+    display: $d-flex;
+    flex-direction: $f-direc;
+    justify-content: $just-c;
+    
+}
