@@ -43,6 +43,8 @@
 .fotos-productos {
    
     justify-content: center;
+    align-items: start;
+    justify-items: center;
     margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

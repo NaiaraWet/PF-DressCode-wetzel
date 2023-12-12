@@ -3,9 +3,13 @@
     body {
      background-color: $blue;
     }
-
+    /*aca pasa algo raro*/
     .fotos-productos {
      grid-template-columns: 1fr 1fr;
+     justify-items: center;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
      grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "producto1 producto2"
@@ -45,17 +49,17 @@
     .contenido-logo {
       width: 100%;
     }
-    .menu ul {
-        @include d-f-j(flex, column, center);
-        width: 55%;
-    }
+    
     .your-clothes {
       width: 100%;
     }
+
+    /*aca tambien pasa algo raro*/
     .fotos-productos {
       width: 100%;
       justify-content: center;
-      align-items: center;
+      justify-items: center;
+      align-items: start;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
      grid-template-areas:
