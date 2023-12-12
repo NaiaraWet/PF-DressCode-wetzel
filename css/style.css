@@ -36,25 +36,25 @@
   margin: 2%;
 }
 
-.menu {
-  display: flex;
+.nav-link {
+  font-family: "Onest", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Onest", sans-serif;
+  margin-left: 8%;
+  font-weight: bold;
+}
+
+.barradenav {
+  background-color: rgba(176, 228, 73, 0.8509803922);
   justify-content: center;
   align-items: center;
-  background-color: #aaec25;
-  text-align: justify;
+  margin-top: 20px;
 }
-.menu a {
-  padding: 0 20px;
-}
-.menu * {
-  font-family: "Onest", sans-serif;
-  font-size: 16px;
-}
-.menu li {
-  display: inline-block;
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 2%;
+
+.navbar-collapse {
+  justify-content: center;
 }
 
 .your-clothes {
@@ -121,7 +121,7 @@ h2 {
   justify-content: center;
   align-items: start;
   justify-items: center;
-  margin-top: 15px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -184,41 +184,39 @@ h3 {
   text-align: center;
 }
 
+.preguntasf {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
 .suscribete {
   margin-left: 5%;
   margin-top: 2%;
 }
 
-.productos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.productos li {
+.cards-totales {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 20%;
+  margin: 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px 0, 0, 0, 0, 2;
+  cursor: default;
+  transition: all 400ms ease;
 }
-.productos li img {
-  width: 100px;
-  height: 100px;
-  border-radius: 5px;
+
+.cards-totales:hover {
+  box-shadow: 5px 5px 20px 0, 0, 0, 0, 4;
 }
-.productos li h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.productos li p {
-  font-size: 14px;
-  font-weight: 600;
-}
-.productos li a {
-  background-color: #000;
-  color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
+
+.card-body {
+  justify-content: center;
+  align-items: center;
 }
 
 #envio {
@@ -258,13 +256,11 @@ h3 {
   body {
     background-color: #5656b3;
   }
-  /*aca pasa algo raro*/
   .fotos-productos {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     justify-content: center;
-    justify-items: center;
-    align-items: center;
+    align-items: start;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "producto1 producto2" "producto3 producto3";
   }
@@ -282,13 +278,19 @@ h3 {
   .productos-productos {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     max-width: 100%;
   }
   .productos-productos img {
     margin: 10px;
-    width: 50%;
+    width: 20%;
     height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .productos-productos h2 {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
@@ -307,6 +309,7 @@ h3 {
     justify-content: center;
     justify-items: center;
     align-items: start;
+    margin: auto;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "producto1" "producto2" "producto3";

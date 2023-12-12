@@ -43,9 +43,9 @@
 .fotos-productos {
    
     justify-content: center;
-    align-items: start;
+    align-items:start;
     justify-items: center;
-    margin-top: 15px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -108,49 +108,43 @@ h3 {
     }
 }
 
+.preguntasf {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
 .suscribete {
     margin-left: 5%;
     margin-top: 2%;
 }
 
 
-.productos {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
+.cards-totales {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 20%;
+    margin: 20px;
+    border-radius: 6px;
+   
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px (0,0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+ 
 
-    li {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 20px;
+}
 
-        img {
-            @include width-height(100px,100px);
-            border-radius: 5px;
-        }
+.cards-totales:hover {
+    box-shadow: 5px 5px 20px (0,0,0,0,4);
+}
 
-        h2 {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        a {
-            background-color: $black;
-            color: $white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-    }
-
-
+.card-body {
+    justify-content: center;
+    align-items: center;
 }
 
 #envio {

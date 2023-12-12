@@ -14,26 +14,30 @@
     margin: 2%;
 
 }
-.menu {
-    @include centrado-p(flex, center, center);
-    background-color: $amarillo;
-    text-align: justify;
 
-    a{
-    padding: 0 20px;}
-    & *{
-        font-family:'Onest', sans-serif;
-        font-size: 16px;
-        
-    }
-
-    li {
-        display: inline-block;
-        text-align: center;
-        margin-top: 5%;
-        margin-bottom: 2%;
-      }
+.nav-link {
+    font-family: 'Onest', sans-serif;
+    
 }
+
+.navbar-brand {
+    font-family: 'Onest', sans-serif;
+    margin-left: 8%;
+    font-weight: bold;
+    
+}
+
+.barradenav {
+    background-color: #b0e449d9;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+
+
 .your-clothes {
         text-align: center;
         font-size: 20px;
