@@ -77,19 +77,24 @@
 
 h3 {
     margin-top: 5%;
+    text-align: center;
+    color: $amarillo;
 
+}
+
+h4 {
+    color: $amarillo;
 }
 
 .call-to-action {
     @include centrado-p(flex, center, center);
     margin-bottom: 3%;
-    background-color: $amarillo;
+    
 }
 
 .vertienda {
     display: flex;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    justify-content: center;
 }
 
 .faq {
@@ -101,7 +106,8 @@ h3 {
 
     &-title {
         font-size: map-get($map: $f-size, $key: "grande");
-        background-color: $amarillo;
+        margin-top: 3%;
+        color: $amarillo;
         align-items: center;
         width: 100%;
         text-align: center;
@@ -111,7 +117,10 @@ h3 {
 .preguntasf {
     display: flex;
     flex-direction: column;
-    font-size: small;
+    font-size: medium;
+    align-items: flex-start;
+    margin-top: 3%;
+    
 }
 
 .suscribete {
@@ -120,31 +129,30 @@ h3 {
 }
 
 
-.cards-totales {
+.padre-card {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 20%;
-    margin: 20px;
-    border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.card {
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
    
-    background-color: #ffffff;
-    box-shadow: 0px 1px 10px (0,0,0,0,2);
-    cursor: default;
-    transition: all 400ms ease;
- 
-
 }
 
-.cards-totales:hover {
-    box-shadow: 5px 5px 20px (0,0,0,0,4);
-}
+
 
 .card-body {
     justify-content: center;
     align-items: center;
+    font-family: 'Onest', sans-serif;
 }
 
 #envio {
@@ -154,4 +162,47 @@ h3 {
 
 .mapa {
     margin: 4%;
+}
+
+#sobre-nosotros {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    
+}
+.card-img-overlay {
+    font-family: 'Onest', sans-serif;
+    font-weight: bold;
+    color: $amarillo;
+    font-size: small;
+}
+
+.historia {
+    font-family: 'Onest', sans-serif;
+    font-size: large;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 2%;
+}
+
+.nuestra {
+    font-size: xx-large;
+    justify-content: center;
+    text-align: center;
+    color: $amarillo;
+}
+
+ul {
+    font-size: smaller;
 }
