@@ -84,6 +84,8 @@ h3 {
 
 h4 {
     color: $amarillo;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action {
@@ -155,13 +157,17 @@ h4 {
     font-family: 'Onest', sans-serif;
 }
 
-#envio {
-    background-color: $amarilloverde;
-}
+
+
 
 
 .mapa {
     margin: 4%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 #sobre-nosotros {
@@ -203,6 +209,22 @@ h4 {
     color: $amarillo;
 }
 
-ul {
-    font-size: smaller;
+.costos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: 'Onest', sans-serif;
+    
+}
+
+.seg-env {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: 'Onest', sans-serif;
+    
 }

@@ -1,6 +1,6 @@
 .fade-in {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @-webkit-keyframes fade-in {
@@ -66,10 +66,21 @@
 
 h2 {
   font-size: 50px;
+  margin-top: 3%;
+  font-family: "Onest", sans-serif;
+  font-weight: bold;
+  color: #aaec25;
   width: 100%;
   text-align: justify;
   text-align: center;
-  background-color: #b0e449;
+}
+
+.info-contacto {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  font-family: "Onest", sans-serif;
 }
 
 .carousel-dificil {
@@ -160,6 +171,8 @@ h3 {
 
 h4 {
   color: #aaec25;
+  display: flex;
+  justify-content: center;
 }
 
 .call-to-action {
@@ -224,12 +237,13 @@ h4 {
   font-family: "Onest", sans-serif;
 }
 
-#envio {
-  background-color: #b0e449;
-}
-
 .mapa {
   margin: 4%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 #sobre-nosotros {
@@ -271,8 +285,22 @@ h4 {
   color: #aaec25;
 }
 
-ul {
-  font-size: smaller;
+.costos {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  font-family: "Onest", sans-serif;
+}
+
+.seg-env {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  font-family: "Onest", sans-serif;
 }
 
 .social-media {
@@ -301,7 +329,9 @@ ul {
 }
 
 form {
-  margin-left: 20px;
+  margin-left: 5%;
+  display: inline-grid;
+  font-family: "Onest", sans-serif;
 }
 
 @media (max-width: 1020px) {
@@ -347,7 +377,6 @@ form {
   .your-clothes {
     width: 100%;
   }
-  /*aca tambien pasa algo raro*/
   .fotos-productos {
     width: 100%;
     justify-content: center;
@@ -383,14 +412,16 @@ form {
   }
   h2 {
     font-size: xx-large;
-    background-color: #aaec25;
+    margin-top: 4%;
   }
   h3 {
-    font-size: small;
-    text-align: justify;
+    text-align: center;
   }
   .card-img {
     width: 100%;
+  }
+  ul {
+    font-size: smaller;
   }
 }
 

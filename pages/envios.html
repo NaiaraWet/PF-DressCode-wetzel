@@ -22,7 +22,7 @@
             <img class="logo" src="../assets/Logo.jpeg" alt="logo-empresa">
             <h1 class="titulo-marca">Dress Code</h1>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light barradenav">
           <a class="navbar-brand" href="#">DC</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,9 +51,7 @@
                 
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+           
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,12 +64,12 @@
     <main>
         <section id="envio">
             <h2>Políticas de envío</h2>
-            <ul>
+            <ul class="costos">
               <li>Costos de envío:</li>
               <ul>
                 <li>Envío estándar: $3200 por pedido</li>
                 <li>Envío urgente: $5500 por pedido</li>
-                <li>Envío gratuito: Para pedidos superiores a $50.00</li>
+                <li>Envío gratuito: Para pedidos superiores a $50.000</li>
               </ul>
               <li>Tiempos de entrega:</li>
               <ul>
@@ -84,8 +82,8 @@
                 <li>No se envían productos a direcciones internacionales</li>
               </ul>
             </ul>
-            <h2>Opciones de envío</h2>
-            <ul>
+            <h3>Opciones de envío</h3>
+            <ul class="costos">
               <li>Envío estándar:</li>
               <p>Esta opción es la más económica y tarda entre 5 y 7 días hábiles en llegar. Es la opción ideal para pedidos que no tienen prisa.</p>
               <li>Envío urgente:</li>
@@ -93,23 +91,27 @@
               <li>Envío gratuito:</li>
               <p>Esta opción está disponible para pedidos superiores a $100. Es la opción ideal para pedidos que son de gran tamaño o que requieren un envío más rápido.</p>
             </ul>
-            <h2>Seguimiento de envíos</h2>
-            <p>Una vez que tu pedido haya sido enviado, recibirás un correo electrónico con un número de rastreo. Puedes utilizar este número para rastrear tu pedido en línea.</p>
+            <h4>Seguimiento de envíos</h4>
+            <p class="seg-env">Una vez que tu pedido haya sido enviado, recibirás un correo electrónico con un número de rastreo. Puedes utilizar este número para rastrear tu pedido en línea.</p>
           </section>
     </main>
     <footer>
         <form action="https://miservidordecorreo.com/subscribe" method="post">
             <input type="email" placeholder="Introduce tu correo electrónico">
             <input type="submit" value="¡Suscríbete!">
-          </form>
+        </form>
 
           <div class="social-media">
+            <section class="logo-facebook"> 
             <a href="https://www.facebook.com/miscelaneaclothesrcia?mibextid=LQQJ4d">
-              <img src="facebook.png" alt="Facebook">
+              <img src="../assets/facebook.png" alt="Facebook">
             </a>
+          </section>
+            <section class="logo-instagram"> 
             <a href="https://instagram.com/dresscode_imp?igshid=MzRlODBiNWFlZA==">
-              <img src="instagram.png" alt="Instagram">
+              <img src="../assets/instagram.png" alt="Instagram">
             </a>
+          </section>
           </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

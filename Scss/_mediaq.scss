@@ -60,7 +60,7 @@
     width: 100%;
   }
 
-  /*aca tambien pasa algo raro*/
+  
   .fotos-productos {
     width: 100%;
     justify-content: center;
@@ -106,18 +106,23 @@
 
   h2 {
     font-size: map-get($map: $f-size, $key: "grande");
-    background-color: $amarillo;
+    margin-top: 4%;
   }
 
   h3 {
-    font-size: map-get($map: $f-size, $key: "peque");
-    text-align: justify;
+    font-size: map-get($map: $f-size, $key: "large");
+    text-align: center;
 
   }
 
   .card-img {
     width: 100%;
   }
+
+  ul {
+    font-size: smaller;
+  }
+
 
 
 }

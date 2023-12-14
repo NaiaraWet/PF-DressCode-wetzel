@@ -46,9 +46,20 @@
       }
       h2 {
         font-size: 50px;
+        margin-top: 3%;
+        font-family: 'Onest', sans-serif;
+        font-weight: bold;
+        color: $amarillo;
         width: 100%;
         text-align: justify;
         text-align: center;
-        background-color: $amarilloverde;
+        
       }
 
+      .info-contacto {
+            margin-left: 5%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-right: 5%;
+            font-family: 'Onest', sans-serif;
+      }
