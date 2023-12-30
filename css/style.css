@@ -19,6 +19,10 @@
     opacity: 1;
   }
 }
+* {
+  font-family: "Onest", sans-serif;
+}
+
 .titulo-marca {
   font-size: 70px;
   font-weight: bold;
@@ -323,6 +327,30 @@ h4 {
   font-family: "Onest", sans-serif;
 }
 
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.btn-primary {
+  background-color: #aaec25;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -350,6 +378,8 @@ h4 {
 
 form {
   margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   display: inline-grid;
   font-family: "Onest", sans-serif;
 }
@@ -427,7 +457,7 @@ form {
   }
   p {
     font-size: smaller;
-    text-align: justify;
+    text-align: center;
     font-family: "Onest", sans-serif;
   }
   h2 {
