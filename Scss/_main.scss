@@ -138,6 +138,7 @@ h4 {
   flex-wrap: wrap;
   margin-top: 30px;
   margin-bottom: 30px;
+  
 
 }
 
@@ -145,11 +146,20 @@ h4 {
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 10px;
+    width: 15rem;
     text-align: center;
    
 }
 
-
+.btn {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #aaec25;
+    cursor: pointer;
+  }
 
 .card-body {
     justify-content: center;
@@ -179,6 +189,15 @@ h4 {
     justify-content: center;
 }
 
+
+.card-mujeres {
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+    text-align: center;
+}
+
 .card-img {
     display: flex;
     justify-content: center;
@@ -187,11 +206,14 @@ h4 {
     margin: auto;
     
 }
+
 .card-img-overlay {
     font-family: 'Onest', sans-serif;
     font-weight: bold;
     color: $amarillo;
-    font-size: small;
+    font-size:medium;
+    position: relative;
+    margin-top: 3%;
 }
 
 .historia {
