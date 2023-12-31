@@ -107,7 +107,7 @@ h4 {
 
 
     &-title {
-        font-size: map-get($map: $f-size, $key: "grande");
+        font-size: map-get($map: $f-size, $key: "mediano");
         margin-top: 3%;
         color: $amarillo;
         align-items: center;
